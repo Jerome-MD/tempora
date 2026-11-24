@@ -1,0 +1,5 @@
+tempora.db
+venv/
+__pycache__/
+*.env
+!tempora.env.example

@@ -1,0 +1,20 @@
+[Unit]
+Description=Tempora - pointage des horaires
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+# A adapter : utilisateur et dossier d'installation
+User=pi
+WorkingDirectory=/home/pi/tempora
+Environment=PYTHONPATH=/home/pi/tempora
+EnvironmentFile=/etc/tempora.env
+ExecStart=/home/pi/tempora/venv/bin/waitress-serve --listen=0.0.0.0:8080 app:app
+Restart=always
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
