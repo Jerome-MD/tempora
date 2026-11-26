@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Tempora — pointage des horaires par lien personnel
+# Copyright (C) 2026 Jérôme Minec-Dubé
+# SPDX-License-Identifier: AGPL-3.0-or-later
 """Tempora — pointage des horaires par lien personnel (Flask + SQLite).
 
 Usage :

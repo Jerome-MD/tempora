@@ -92,4 +92,6 @@ Toutes les données sont dans le fichier SQLite (`TEMPORA_DB`). Copiez-le régul
 
 ## Licence
 
-MIT
+Tempora est distribué sous licence **GNU AGPL-3.0** (voir le fichier `LICENSE`). Vous pouvez l'utiliser, l'étudier, le modifier et le redistribuer librement ; si vous proposez une version modifiée à des utilisateurs via un réseau, vous devez leur fournir son code source sous la même licence.
+
+Le logiciel est fourni **sans garantie** d'aucune sorte, notamment quant à la conformité à la réglementation du temps de travail et de la paie. Un accompagnement (installation, maintenance, évolutions) est possible sur devis : contacter Jérôme Minec-Dubé.
